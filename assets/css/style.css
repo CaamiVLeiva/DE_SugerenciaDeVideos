@@ -1,0 +1,15 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+img {
+    width: 10%;
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 767px) {
+    .accordion-body iframe {
+        /* Ajusta el ancho */
+        width: 100%;
+    }
+}
